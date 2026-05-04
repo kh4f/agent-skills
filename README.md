@@ -1,9 +1,13 @@
 # 🤖 kh4f's Agent Skills
-
-A curated collection of [Agent Skills](https://agentskills.io) reflecting [kh4f](https://github.com/kh4f)'s best practices.
+A curated collection of [Agent Skills](https://agentskills.io) for automating developer workflows
 
 ## 🧠 Skills
-
 | Name | Description |
 | - | - |
-| [`suggest-commit`](skills/suggest-commit/SKILL.md) | Suggest conventional commit messages from Git changes. |
+| [`suggest-commit`](skills/suggest-commit/SKILL.md) | Suggest conventional commit messages from Git changes |
+
+## 📥 Installation
+```bash
+bunx skills add kh4f/skills
+```
+<sup>[`skills` CLI docs](https://www.npmjs.com/package/skills)</sup>
