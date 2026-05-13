@@ -13,7 +13,8 @@ description: Suggest conventional commit messages from Git changes. Use when ask
 
 ### Style
 - Use American English.
-- Use backticks everywhere for code entities, paths, dependencies, CLI flags, config keys, and similar technical tokens.
+- Use backticks for code entities and paths.
+- Preserve official capitalization of tech/brand names (e.g., Node.js, GitHub, Bun, tsdown).
 
 ### Format
 ```markdown
@@ -54,7 +55,7 @@ Prefer a feature or subsystem name.
 The subject should be:
 - imperative
 - present-tense
-- lowercase
+- lowercase (except for proper nouns, acronyms, and official tech/brand names)
 - concise and specific
 - free of a trailing period
 
