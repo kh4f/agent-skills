@@ -1,4 +1,5 @@
 # 🧠 kh4f's Agent Skills
+
 A collection of [Agent Skills](https://agentskills.io) for automating developer workflows:
 
 | Name | Description |
@@ -6,6 +7,7 @@ A collection of [Agent Skills](https://agentskills.io) for automating developer 
 | [`suggest-commit`](skills/suggest-commit/SKILL.md) | Suggest conventional commit messages from Git changes |
 
 ## 📥 Installation
+
 ```bash
 bunx skills add kh4f/skills
 ```
