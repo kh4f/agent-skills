@@ -1,5 +1,5 @@
 # 🧠 kh4f's Agent Skills
-A curated collection of [Agent Skills](https://agentskills.io) for automating developer workflows:
+A collection of [Agent Skills](https://agentskills.io) for automating developer workflows:
 
 | Name | Description |
 | - | - |
