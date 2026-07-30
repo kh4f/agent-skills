@@ -1,7 +1,6 @@
 # 🧠 kh4f's Agent Skills
-A curated collection of [Agent Skills](https://agentskills.io) for automating developer workflows
+A curated collection of [Agent Skills](https://agentskills.io) for automating developer workflows:
 
-## 🧠 Skills
 | Name | Description |
 | - | - |
 | [`suggest-commit`](skills/suggest-commit/SKILL.md) | Suggest conventional commit messages from Git changes |
