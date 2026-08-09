@@ -1,10 +1,10 @@
 ---
 name: suggest-commit
-description: Suggest conventional commit messages from Git changes.
+description: Suggest conventional commit messages from staged Git changes.
 ---
 
 ## Workflow
-1. Analyze staged changes (fallback to unstaged if empty)
+1. Analyze staged git changes
 2. Use any user note as supporting context for intent, motivation, or footer details
 3. Follow the commit message guidelines below
 4. Produce three commit message options, each in its own fenced `markdown` code block

@@ -4,7 +4,7 @@ A collection of [Agent Skills](https://agentskills.io) for automating developer 
 
 | Name | Description |
 | - | - |
-| [`suggest-commit`](skills/suggest-commit/SKILL.md) | Suggest conventional commit messages from Git changes |
+| [`suggest-commit`](skills/suggest-commit/SKILL.md) | Suggest conventional commit messages from staged Git changes |
 
 ## 📥 Installation
 
