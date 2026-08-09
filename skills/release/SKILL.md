@@ -85,6 +85,7 @@ description: Release a new version of the project
 ### 3. Commit & Tag
 - Ask the user for edits or to proceed
 - If the user requests edits, apply them and ask again
-- On confirmation, stage the changed files and run:
+- On confirmation, run:
+  - `git add -A`
   - `git commit -m "chore(release): <NEW_TAG>"`
   - `git tag <NEW_TAG> -m ""`
