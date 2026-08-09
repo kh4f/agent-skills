@@ -1,6 +1,6 @@
 ---
 name: suggest-commit
-description: Suggest conventional commit messages from Git changes. Use when asked to suggest a commit message.
+description: Suggest conventional commit messages from Git changes.
 ---
 
 ## Workflow
