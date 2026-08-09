@@ -1,6 +1,6 @@
 ---
 name: suggest-commit
-description: Suggest conventional commit messages from staged Git changes.
+description: Suggest conventional commit messages from staged Git changes
 ---
 
 ## Workflow
@@ -12,9 +12,9 @@ description: Suggest conventional commit messages from staged Git changes.
 ## Commit Message Guidelines
 
 ### Style
-- Use American English.
-- Use backticks for code entities and paths.
-- Preserve official capitalization of tech/brand names (e.g., Node.js, GitHub, Bun, tsdown).
+- Use American English
+- Use backticks for code entities and paths
+- Preserve official capitalization of tech/brand names (e.g., Node.js, GitHub, Bun, tsdown)
 
 ### Format
 ```markdown
