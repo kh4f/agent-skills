@@ -13,14 +13,14 @@ description: Release a new version of the project
 ### 2. Generate Changelog
 - Keep only user-facing changes
 - Write a polished entry following the template and prepend it to `CHANGELOG.md`
-- Group changes under `<emoji> <Name>` headers — for example:
+- Group changes by category:
   - `📢 BREAKING CHANGES`
   - `🎁 Features`
   - `🩹 Fixes`
   - `⚡ Performance`
   - `📋 Docs`
   - `🎨 Style`
-  - ...
+  - `📦 Distribution`
 
 #### Changelog Template
 ```markdown
