@@ -27,7 +27,7 @@ description: Release a new version of the project
 ## &ensp; ` 🏷️ <NEW_TAG>  `
 
 ### &emsp; <EMOJI> <CATEGORY>
-- **<Short concise summary>**: <detailed description, optionally with sub-bullets>. [🡥](<commit_url>) [#<issue_number>](<issue_url>)
+- **<Concise summary>**: <description, optionally with sub-bullets>. [🡥](<commit_url>) [#<issue_number>](<issue_url>)
 
 ##### &emsp;&emsp; [Commit log](<REPO_URL>/compare/<OLD_TAG>...<NEW_TAG>) &ensp;•&ensp; <Mon D, YYYY>
 ```
