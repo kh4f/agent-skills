@@ -3,14 +3,14 @@ name: release
 description: Release a new version of the project
 ---
 
-## Workflow
+# Workflow
 
-### 1. Analyze Commits & Bump Version
+## 1. Analyze Commits & Bump Version
 - Retrieve commits since the latest version tag
 - Determine the next semantic version
 - Bump it in all relevant manifests
 
-### 2. Generate Changelog
+## 2. Generate Changelog
 - Keep only user-facing changes
 - Write a polished entry following the template and prepend it to `CHANGELOG.md`
 - Group changes by category:
@@ -22,7 +22,7 @@ description: Release a new version of the project
   - `🎨 Style`
   - `📦 Distribution`
 
-#### Changelog Template
+### Changelog Template
 ```markdown
 ## &ensp; [` 📦 <NEW_TAG>  `](<REPO_URL>/compare/<OLD_TAG>...<NEW_TAG>)
 
@@ -32,7 +32,7 @@ description: Release a new version of the project
 ##### &emsp;&emsp; [Commit log](<REPO_URL>/compare/<OLD_TAG>...<NEW_TAG>) &ensp;•&ensp; <Mon D, YYYY>
 ```
 
-#### Changelog Examples
+### Changelog Examples
 ```markdown
 ## &ensp; [` 📦 v3.2.3  `](https://github.com/kh4f/manual-sorting/compare/v3.2.2...v3.2.3)
 
@@ -82,7 +82,7 @@ description: Release a new version of the project
 ##### &emsp;&emsp; [Commit log](https://github.com/kh4f/manual-sorting/compare/v2.5.1...v3.0.0) &ensp;•&ensp; Nov 6, 2025
 ```
 
-### 3. Commit & Tag
+## 3. Commit & Tag
 - Ask the user for edits or to proceed
 - If the user requests edits, apply them and ask again
 - On confirmation, run:
