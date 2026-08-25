@@ -12,4 +12,4 @@ A collection of [Agent Skills](https://agentskills.io) for automating developer 
 ```bash
 bunx skills add kh4f/skills
 ```
-<sup>[`skills` CLI docs](https://www.npmjs.com/package/skills)</sup>
+<sup>[`skills` docs](https://www.npmjs.com/package/skills)</sup>
