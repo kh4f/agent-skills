@@ -24,7 +24,7 @@ description: Release a new version of the project
 
 ### Changelog Template
 ```markdown
-## &ensp; [` 📦 <NEW_TAG>  `](<REPO_URL>/compare/<OLD_TAG>...<NEW_TAG>)
+## &ensp; ` 🏷️ <NEW_TAG>  `
 
 ### &emsp; <EMOJI> <CATEGORY>
 - **<Short concise summary>**: <detailed description, optionally with sub-bullets>. [🡥](<commit_url>) [#<issue_number>](<issue_url>)
@@ -34,7 +34,7 @@ description: Release a new version of the project
 
 ### Changelog Examples
 ```markdown
-## &ensp; [` 📦 v3.2.3  `](https://github.com/kh4f/manual-sorting/compare/v3.2.2...v3.2.3)
+## &ensp; ` 🏷️ v3.2.3  `
 
 ### &emsp; 🎁 Features
 - **Auto-scrolling during drag**: the explorer now scrolls automatically when dragging items near the edges. [🡥](https://github.com/kh4f/manual-sorting/commit/4h5i6j7)
@@ -47,7 +47,7 @@ description: Release a new version of the project
 ```
 
 ```markdown
-## &ensp; [` 📦 v3.2.2  `](https://github.com/kh4f/manual-sorting/compare/v3.2.1...v3.2.2)
+## &ensp; ` 🏷️ v3.2.2  `
 
 ### &emsp; 🩹 Fixes
 - **Improved multi-selection dragging**:
@@ -67,7 +67,7 @@ description: Release a new version of the project
 ```
 
 ```markdown
-## &ensp; [` 📦 v3.0.0  `](https://github.com/kh4f/manual-sorting/compare/v2.5.1...v3.0.0)
+## &ensp; ` 🏷️ v3.0.0  `
 
 ### &emsp; 📢 BREAKING CHANGES
 - The settings storage format has been completely redesigned. **Your existing settings, including custom order, will be reset.** [🡥](https://github.com/kh4f/manual-sorting/commit/4l5m6n7)
