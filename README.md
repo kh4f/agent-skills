@@ -1,4 +1,4 @@
-# 🧠 kh4f's Agent Skills
+# 🧠 Agent Skills
 
 A collection of [Agent Skills](https://agentskills.io) for automating developer workflows:
 
