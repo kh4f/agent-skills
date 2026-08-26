@@ -24,12 +24,12 @@ description: Release a new version of the project
 
 ### Changelog Template
 ```markdown
-## &ensp; ` 🏷️ <NEW_TAG>  `
+## &ensp; ` 🏷️ <new_tag>  `
 
-### &emsp; <EMOJI> <CATEGORY>
+### &emsp; <emoji> <Category>
 - **<Concise summary>**: <description, optionally with sub-bullets>. [🡥](<commit_url>) [#<issue_number>](<issue_url>)
 
-##### &emsp;&emsp; [Commit log](<REPO_URL>/compare/<OLD_TAG>...<NEW_TAG>) &ensp;•&ensp; <Mon D, YYYY>
+##### &emsp;&emsp; [Commit log](<repo_url>/compare/<old_tag>...<new_tag>) &ensp;•&ensp; <Mon D, YYYY>
 ```
 
 ### Changelog Examples
