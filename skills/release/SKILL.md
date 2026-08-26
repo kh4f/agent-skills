@@ -32,7 +32,7 @@ description: Release a new version of the project
 ##### &emsp;&emsp; [Commit log](<repo_url>/compare/<old_tag>...<new_tag>) &ensp;•&ensp; <Mon D, YYYY>
 ```
 
-### Changelog Examples
+#### Changelog Examples
 ```markdown
 ## &ensp; ` 🏷️ v3.2.3  `
 
