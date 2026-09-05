@@ -31,8 +31,8 @@ description: Release a new version of the project
 
 ##### &emsp;&emsp; [Commit log](<repo_url>/compare/<old_tag>...<new_tag>) &ensp;•&ensp; <Mon D, YYYY>
 ```
-
-> **Note:** if there is no previous tag (i.e. this is the first release), use `<repo_url>/commits/<new_tag>` for the commit log link.
+- For packages in a monorepo, omit the commit log link.
+- If there is no previous tag (i.e. this is the first release), use `<repo_url>/commits/<new_tag>` for the commit log link.
 
 #### Changelog Examples
 ```markdown
