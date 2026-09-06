@@ -45,7 +45,7 @@ description: Release a new version of the project
   - `📦 Distribution`
 - If there is no previous tag (i.e. this is the first release), use `<repo_url>/commits/<new_tag>` for the commit log link.
 
-#### Changelog Examples
+### Examples
 
 ```markdown
 ## &ensp; ` 🏷️ v3.2.3  `
