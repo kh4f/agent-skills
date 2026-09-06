@@ -51,10 +51,15 @@ description: Release a new version of the project
 
 ### &emsp; ✨ Features
 - **Auto-scrolling during drag**: the explorer now scrolls automatically when dragging items near the edges. [🡥](https://github.com/kh4f/manual-sorting/commit/4h5i6j7)
+- **SVG to ICO conversion**: added an initial `.svg` → `.ico` pipeline that renders at 16/24/32/256 px, encodes the layers as PNG, and assembles them into a single ICO file. [🡥](https://github.com/kh4f/svico/commit/b36cb72)
+- **Custom layer sizes**: added the `-s`/`--sizes` option to choose layer sizes (defaults to `16,24,32,256`, validated to the 1–256 range). [🡥](https://github.com/kh4f/svico/commit/75fa69d)
 
 ### &emsp; 🩹 Fixes
 - **Fixed RMB drag activation**: holding the right mouse button no longer triggers drag & drop. [🡥](https://github.com/kh4f/manual-sorting/commit/7f1a2b3) [#114](https://github.com/kh4f/manual-sorting/issues/114)
 - **Reliable drop zone cleanup**: drop zones now always clear when releasing the mouse, even outside Obsidian or after opening context menus on Mac. [🡥](https://github.com/kh4f/manual-sorting/commit/8c9d0e1) [#115](https://github.com/kh4f/manual-sorting/issues/115) [#116](https://github.com/kh4f/manual-sorting/issues/116)
+
+### &emsp; 📋 Docs
+- **Documented ICO pipeline**: added documentation for the ICO format and the rendering pipeline. [🡥](https://github.com/kh4f/svico/commit/9532ec7)
 
 ##### &emsp;&emsp; [Commit log](https://github.com/kh4f/manual-sorting/compare/v3.2.2...v3.2.3) &ensp;•&ensp; Dec 26, 2025
 ```
@@ -91,6 +96,12 @@ description: Release a new version of the project
 - **Enhanced drag boundaries**: drag events now properly handle interactions outside the file explorer. [🡥](https://github.com/kh4f/manual-sorting/commit/0i1j2k3)
 - **Fixed keyboard selection issue**: resolved incorrect note highlighting when using keyboard navigation. [🡥](https://github.com/kh4f/manual-sorting/commit/6u7v8w9) [#46](https://github.com/kh4f/manual-sorting/issues/46)
 - **Wider touch activation area**: expanded the drag zone width for more reliable dragging on mobile. [🡥](https://github.com/kh4f/manual-sorting/commit/6m7n8o9)
+
+### &emsp; ⚡ Performance
+- **Smaller ICO files**: PNG layers are now compressed with Oxipng at max compression to shrink the resulting `.ico` size. [🡥](https://github.com/kh4f/svico/commit/9104b4d)
+
+### &emsp; 📦 Distribution
+- **Direct binary in zips**: prebuilt release zips now place the executable at the archive root, so extracting yields `svico` immediately. [🡥](https://github.com/kh4f/svico/commit/0647223)
 
 ##### &emsp;&emsp; [Commit log](https://github.com/kh4f/manual-sorting/compare/v2.5.1...v3.0.0) &ensp;•&ensp; Nov 6, 2025
 ```
