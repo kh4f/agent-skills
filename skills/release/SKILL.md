@@ -14,13 +14,15 @@ description: Release a new version of the project
   - Keep only user-facing changes
   - Write a polished entry following the [Changelog Guidelines](#changelog-guidelines) and prepend it to `CHANGELOG.md`
 
-3. **Commit & Tag**
-  - Ask the user for edits or to proceed
-  - If the user requests edits, apply them and ask again
-  - On confirmation, run:
-    - `git add -A`
-    - `git commit -m "chore(release): <NEW_TAG>"`
-    - `git tag <NEW_TAG> -m ""`
+3. **Review**
+- Ask the user for edits or to proceed
+- If the user requests edits, apply them and ask again
+
+4. **Commit & Tag**
+On confirmation, run:
+- `git add -A`
+- `git commit -m "chore(release): <NEW_TAG>"`
+- `git tag <NEW_TAG> -m ""`
 
 ## Changelog Guidelines
 
