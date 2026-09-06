@@ -15,7 +15,7 @@ description: Release a new version of the project
 - Write a polished entry following the template and prepend it to `CHANGELOG.md`
 - Group changes by category:
   - `📢 BREAKING CHANGES`
-  - `🎁 Features`
+  - `✨ Features`
   - `🩹 Fixes`
   - `⚡ Performance`
   - `📋 Docs`
@@ -38,7 +38,7 @@ description: Release a new version of the project
 ```markdown
 ## &ensp; ` 🏷️ v3.2.3  `
 
-### &emsp; 🎁 Features
+### &emsp; ✨ Features
 - **Auto-scrolling during drag**: the explorer now scrolls automatically when dragging items near the edges. [🡥](https://github.com/kh4f/manual-sorting/commit/4h5i6j7)
 
 ### &emsp; 🩹 Fixes
