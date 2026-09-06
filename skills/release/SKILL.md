@@ -3,16 +3,38 @@ name: release
 description: Release a new version of the project
 ---
 
-# Workflow
+## Workflow
 
-## 1. Analyze Commits & Bump Version
-- Retrieve commits since the latest version tag
-- Determine the next semantic version
-- Bump it in all relevant manifests
+1. **Analyze Commits & Bump Version**
+  - Retrieve commits since the latest version tag
+  - Determine the next semantic version
+  - Bump it in all relevant manifests
 
-## 2. Generate Changelog
-- Keep only user-facing changes
-- Write a polished entry following the template and prepend it to `CHANGELOG.md`
+2. **Generate Changelog**
+  - Keep only user-facing changes
+  - Write a polished entry following the [Changelog Guidelines](#changelog-guidelines) and prepend it to `CHANGELOG.md`
+
+3. **Commit & Tag**
+  - Ask the user for edits or to proceed
+  - If the user requests edits, apply them and ask again
+  - On confirmation, run:
+    - `git add -A`
+    - `git commit -m "chore(release): <NEW_TAG>"`
+    - `git tag <NEW_TAG> -m ""`
+
+## Changelog Guidelines
+
+### Template
+
+```markdown
+## &ensp; ` 🏷️ v<new_version>  `
+
+### &emsp; <emoji> <Category>
+- **<Short summary>**: <concise description, optionally with sub-bullets>. [🡥](<commit_url>) [#<issue_number>](<issue_url>)
+
+##### &emsp;&emsp; [Commit log](<repo_url>/compare/<old_tag>...<new_tag>) &ensp;•&ensp; <Mon D, YYYY>
+```
+
 - Group changes by category:
   - `📢 BREAKING CHANGES`
   - `✨ Features`
@@ -21,20 +43,11 @@ description: Release a new version of the project
   - `📋 Docs`
   - `🎨 Style`
   - `📦 Distribution`
-
-### Changelog Template
-```markdown
-## &ensp; ` 🏷️ <new_tag>  `
-
-### &emsp; <emoji> <Category>
-- **<Short summary>**: <concise description, optionally with sub-bullets>. [🡥](<commit_url>) [#<issue_number>](<issue_url>)
-
-##### &emsp;&emsp; [Commit log](<repo_url>/compare/<old_tag>...<new_tag>) &ensp;•&ensp; <Mon D, YYYY>
-```
 - For packages in a monorepo, omit the commit log link.
 - If there is no previous tag (i.e. this is the first release), use `<repo_url>/commits/<new_tag>` for the commit log link.
 
 #### Changelog Examples
+
 ```markdown
 ## &ensp; ` 🏷️ v3.2.3  `
 
@@ -83,11 +96,3 @@ description: Release a new version of the project
 
 ##### &emsp;&emsp; [Commit log](https://github.com/kh4f/manual-sorting/compare/v2.5.1...v3.0.0) &ensp;•&ensp; Nov 6, 2025
 ```
-
-## 3. Commit & Tag
-- Ask the user for edits or to proceed
-- If the user requests edits, apply them and ask again
-- On confirmation, run:
-  - `git add -A`
-  - `git commit -m "chore(release): <NEW_TAG>"`
-  - `git tag <NEW_TAG> -m ""`
