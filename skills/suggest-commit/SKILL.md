@@ -13,6 +13,7 @@ description: Suggest a conventional commit message from staged Git changes
 
 ### Style
 - Use American English
+- Do not hard-wrap lines
 - Use backticks for code entities and paths
 - Preserve official capitalization of tech/brand names (e.g., Node.js, GitHub, Bun, tsdown)
 
