@@ -26,7 +26,7 @@ description: Release a new version of the project
 ### Template
 
 ```markdown
-## &ensp; ` 🏷️ v<new_version>  `
+## &ensp; v<new_version>
 
 ### &emsp; <emoji> <Category>
 - **<Short summary>**: <concise description, optionally with sub-bullets>. [🡥](<commit_url>) [#<issue_number>](<issue_url>)
@@ -47,7 +47,7 @@ description: Release a new version of the project
 ### Examples
 
 ```markdown
-## &ensp; ` 🏷️ v3.2.3  `
+## &ensp; v3.2.3
 
 ### &emsp; ✨ Features
 - **Auto-scrolling during drag**: the explorer now scrolls automatically when dragging items near the edges. [🡥](https://github.com/kh4f/manual-sorting/commit/4h5i6j7)
@@ -65,7 +65,7 @@ description: Release a new version of the project
 ```
 
 ```markdown
-## &ensp; ` 🏷️ v3.2.2  `
+## &ensp; v3.2.2
 
 ### &emsp; 🩹 Fixes
 - **Improved multi-selection dragging**:
@@ -85,7 +85,7 @@ description: Release a new version of the project
 ```
 
 ```markdown
-## &ensp; ` 🏷️ v3.0.0  `
+## &ensp; v3.0.0
 
 ### &emsp; 🚨 BREAKING CHANGES
 - The settings storage format has been completely redesigned. **Your existing settings, including custom order, will be reset.** [🡥](https://github.com/kh4f/manual-sorting/commit/4l5m6n7)
