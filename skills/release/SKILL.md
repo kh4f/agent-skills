@@ -35,7 +35,7 @@ description: Release a new version of the project
 ```
 
 - Group changes by category:
-  - `📢 BREAKING CHANGES`
+  - `🚨 BREAKING CHANGES`
   - `✨ Features`
   - `🩹 Fixes`
   - `⚡ Performance`
@@ -87,7 +87,7 @@ description: Release a new version of the project
 ```markdown
 ## &ensp; ` 🏷️ v3.0.0  `
 
-### &emsp; 📢 BREAKING CHANGES
+### &emsp; 🚨 BREAKING CHANGES
 - The settings storage format has been completely redesigned. **Your existing settings, including custom order, will be reset.** [🡥](https://github.com/kh4f/manual-sorting/commit/4l5m6n7)
 - The option to **disable dragging has been removed**. [🡥](https://github.com/kh4f/manual-sorting/commit/8o9p0q1)
 
