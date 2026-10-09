@@ -4,7 +4,7 @@ description: Suggest a conventional commit message from staged Git changes
 ---
 
 ## Workflow
-1. Analyze staged git changes
+1. Analyze only staged git changes
 2. Use any user note as supporting context for intent, motivation, or footer details
 3. Follow the commit message guidelines below
 4. Produce a commit message in a fenced `markdown` code block
